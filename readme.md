@@ -3,10 +3,14 @@
 My lab job is to order things. This involves taking information from a Google Sheet to an online ordering form. I've finally decided to automate this process.
 
 Going from this:
-![Google Sheet|3242×532,20%](/img/google_sheet.png)
+
+<img src="/img/google_sheet.png" alt="Google Sheet" width="1000"/>
 
 To this:
-![The order form|1656×1202,10%](/img/landing_page.png)
+
+<img src="/img/landing_page.png" alt="Order Form" width="500"/>
+
+Automagically!
 
 **Future Plans:**
 
