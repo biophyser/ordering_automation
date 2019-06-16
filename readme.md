@@ -38,7 +38,7 @@ or
 
 **Other things:**
 - Google Chrome webdriver
-  - Get it here
+  - Get it [here](http://chromedriver.chromium.org/downloads)
   - You'll also have to point to it's location in the config file
 
 ### Installing
