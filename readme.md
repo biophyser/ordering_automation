@@ -2,9 +2,18 @@
 
 My lab job is to order things. This involves taking information from a Google Sheet to an online ordering form. I've finally decided to automate this process.
 
+Going from this:
+![Google Sheet](/img/google_sheet.png)
+
+To this:
+![The order form](/img/landing_page.png)
+
+**Future Plans**
+I'm hoping to refactor the code so the main script isn't so complicated so stay tuned!
+
 ## Getting Started
 
-If you also want to automate your ordering download the `automate.py` script. Also, contact me for an example of both the `config.py` file and the Google Sheet being used as the formats for both of these are hard-coded in.
+If you also want to automate your ordering download the `automate.py` script. Additionally, contact me for an example of both the `config.py` file and the Google Sheet being used as the formats for both of these are hard-coded in but also contain secrets.
 
 ### Prerequisites
 
@@ -14,7 +23,7 @@ If you also want to automate your ordering download the `automate.py` script. Al
 - `gspread`
 - `oauth2client`
 
-Use pip or conda to install any of these
+Use pip or conda to install any or all of these:
 ```python
 pip install pandas selenium gspread oauth2client
 conda install pandas selenium gspread oauth2client
@@ -43,6 +52,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* I used [this code](https://towardsdatascience.com/accessing-google-spreadsheet-data-using-python-90a5bc214fd2) to quickly figure out the Google Sheets API
+* I learned some basics about `selenium` [here](https://www.linkedin.com/pulse/how-easy-scraping-data-from-linkedin-profiles-david-craven/)
