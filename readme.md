@@ -3,12 +3,13 @@
 My lab job is to order things. This involves taking information from a Google Sheet to an online ordering form. I've finally decided to automate this process.
 
 Going from this:
-![Google Sheet](/img/google_sheet.png)
+![Google Sheet|3242×532,20%](/img/google_sheet.png)
 
 To this:
-![The order form](/img/landing_page.png)
+![The order form|1656×1202,10%](/img/landing_page.png)
 
-**Future Plans**
+**Future Plans:**
+
 I'm hoping to refactor the code so the main script isn't so complicated so stay tuned!
 
 ## Getting Started
