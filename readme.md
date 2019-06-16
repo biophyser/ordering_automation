@@ -29,10 +29,12 @@ If you also want to automate your ordering download the `automate.py` script. Ad
 - `oauth2client`
 
 Use pip or conda to install any or all of these:
-```python
-pip install pandas selenium gspread oauth2client
-conda install pandas selenium gspread oauth2client
-```
+
+`pip install pandas selenium gspread oauth2client`
+
+or
+
+`conda install pandas selenium gspread oauth2client`
 
 **Other things:**
 - Google Chrome webdriver
