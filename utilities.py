@@ -82,7 +82,7 @@ def check_index_nums(col, index_nums=index_nums, autofill=index_nums['NIH']):
         if i == '':
             indexes.append(autofill)
         else:
-            match = get_close_matches(i, index_nums.values(), n=1, cutoff=.6)
+            match = get_close_matches(str(i), index_nums.values(), n=1, cutoff=.6)
             if len(match) == 0:
                 indexes.append(autofill)
             else:
