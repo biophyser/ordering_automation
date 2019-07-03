@@ -16,6 +16,7 @@ client = gspread.authorize(creds)
 sheet = client.open('Purchasing Requests ').sheet1
 data = sheet.get_all_records()
 df = pd.DataFrame(data)
+df = df[df.Date != '']
 # Get new orders
 # CHANGE THIS, INSTEAD OF A COPY WORK WITH THE ORIGINAL DATAFRAME SO THE
 # GOOGLE SHEET CAN BE UPDATED AFTER
@@ -48,4 +49,8 @@ for order in individual_orders:
         break
     driver.get(site)
 
+driver.quit()
 
+for index in new_orders.index: 
+    sheet.update_cell(index+2, 9, 'x')
+    sheet.update_cell(index+2, 13, new_orders.loc[index, 'Index # used'])
